@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/ca-la/react-search-route#readme",
   "peerDependencies": {
-    "react": "^16.8.5"
+    "react": "^16.8.5",
+    "react-router-dom": "^4.3.1",
+    "query-string": "^6.8.3",
+    "lodash": "^4.17.4"
   },
   "keywords": [
     "React",
@@ -35,11 +38,16 @@
   "devDependencies": {
     "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.106",
     "@types/react": "^16.9.2",
+    "@types/react-router-dom": "^4.3.1",
     "jest": "^24.9.0",
+    "lodash": "^4.17.4",
     "prettier": "^1.14.3",
+    "query-string": "^6.8.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^4.3.1",
     "ts-jest": "^24.0.2",
     "ts-node": "^7.0.1",
     "tslib": "^1.9.3",
