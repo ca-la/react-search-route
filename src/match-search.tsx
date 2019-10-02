@@ -20,7 +20,7 @@ function isSubset<A>(a: A[], b: A[]): boolean {
 /**
  * Does every intersecting key in the first object exist with the same value in the second object?
  */
-function isIntersectionEqual(a: qs.ParsedQuery<string>, b: qs.ParsedQuery<string>): boolean {
+function isIntersectionEqual(a: qs.ParsedQuery, b: qs.ParsedQuery): boolean {
   const intersectingKeys = intersection(Object.keys(a), Object.keys(b));
   return (
     intersectingKeys.length > 0 &&
@@ -29,7 +29,7 @@ function isIntersectionEqual(a: qs.ParsedQuery<string>, b: qs.ParsedQuery<string
 }
 
 export interface SearchMatchParams {
-  search: qs.ParsedQuery<string>;
+  search: qs.ParsedQuery;
   searchKeyset: SearchKeyset;
   isExact: boolean;
 }
@@ -39,7 +39,7 @@ export interface SearchMatchParams {
  * TODO: this should support passing through both a search and a searchKeyset!
  */
 export default function matchSearch(
-  search: qs.ParsedQuery<string> | undefined,
+  search: qs.ParsedQuery | undefined,
   searchKeyset: SearchKeyset = [],
   exact: boolean,
   currentSearchString: string
