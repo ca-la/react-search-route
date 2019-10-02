@@ -25,7 +25,7 @@
     "react": "^16.8.5",
     "react-router-dom": "^4.3.1",
     "query-string": "^6.8.3",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.15"
   },
   "keywords": [
     "React",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.18",
-    "@types/lodash": "^4.14.106",
+    "@types/lodash": "^4.14.141",
     "@types/react": "^16.9.2",
     "@types/react-router-dom": "^4.3.1",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "jest": "^24.9.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.15",
     "prettier": "^1.14.3",
     "query-string": "^6.8.3",
     "react": "^16.9.0",
