@@ -12,7 +12,7 @@ main() {
   bin/format -al
   bin/lint -a
   bin/test
-  bin/build
+  npx tsc --noEmit
 }
 
 main "$@"
