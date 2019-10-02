@@ -44,9 +44,7 @@ export default function matchSearch(
   exact: boolean,
   currentSearchString: string
 ): SearchMatchParams | null {
-  const currentSearch = qs.parse(
-    currentSearchString.substring(1)
-  );
+  const currentSearch = qs.parse(currentSearchString.substring(1));
   const currentKeyset = Object.keys(currentSearch);
 
   if (search) {
