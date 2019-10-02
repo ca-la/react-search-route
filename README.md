@@ -6,7 +6,7 @@
 
 | Branch   | URL                                              | Build Status                                                                                                                                |
 | -------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `master` | https://www.npmjs.com/package/@cala/react-search-route | [![CircleCI](https://circleci.com/gh/ca-la/react-portal/tree/master.svg?style=svg)](https://circleci.com/gh/ca-la/react-search-route/tree/master) |
+| `master` | https://www.npmjs.com/package/@cala/react-search-route | [![CircleCI](https://circleci.com/gh/ca-la/react-search-route/tree/master.svg?style=svg)](https://circleci.com/gh/ca-la/react-search-route/tree/master) |
 
 ## Installation
 
