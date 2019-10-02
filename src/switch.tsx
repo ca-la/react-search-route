@@ -5,7 +5,7 @@ import { SearchRouteProps } from './index';
 import matchSearch from './match-search';
 
 interface OwnProps {
-  children?: React.ReactNode;
+  children?: JSX.Element | JSX.Element[];
 }
 
 function SearchSwitch(

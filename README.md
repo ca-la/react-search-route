@@ -1,6 +1,6 @@
 # React Search Route
 
-TBD...
+...
 
 ## Status
 
@@ -14,7 +14,7 @@ TBD...
 
 ## Usage
 
-TBD...
+...
 
 ## Contributing
 
