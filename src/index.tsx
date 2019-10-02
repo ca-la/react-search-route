@@ -9,7 +9,7 @@ export type WithSearchMatch = RouteComponentProps<any> & {
 type RouteRenderer = (routeProps: WithSearchMatch) => React.ReactNode;
 
 export interface SearchParams {
-  [key: string]: string;
+  [key: string]: string | null | undefined;
 }
 
 export type SearchKeyset = string[];
