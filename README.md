@@ -35,7 +35,7 @@ const exactMatch = (): JSX.Element => <div>Matched</div>;
 const noMatch = (): JSX.Element => <div>Do not match me</div>;
 const partialMatch = (): JSX.Element => <div>Partial match</div>;
 
-...
+// ...
 
 <BrowserRouter>
   <SearchSwitch>
