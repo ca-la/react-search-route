@@ -56,8 +56,6 @@ export default function matchSearch(
     {}
   );
 
-  // const currentKeyset = Object.keys(currentSearch);
-
   if (search) {
     const isExactMatch = isEqual(search, currentSearch);
     const isIntersectingMatch =
