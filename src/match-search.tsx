@@ -1,6 +1,6 @@
 import { difference, intersection, isEqual } from 'lodash';
 
-import { SearchKeyset, SearchParams } from './index';
+import { SearchKeyset, SearchParams } from './search-route';
 
 /**
  * Does every element in the first list exist in the second list and vice versa?
