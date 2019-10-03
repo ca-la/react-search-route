@@ -1,6 +1,6 @@
 {
   "name": "@cala/react-search-route",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React routing with search (AKA query) parameters.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
