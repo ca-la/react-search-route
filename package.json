@@ -16,6 +16,33 @@
     "url": "git@github.com:ca-la/react-search-route.git"
   },
   "author": "CALA <devops@ca.la>",
+  "contributors": [
+    {
+      "name": "Dylan Pyle",
+      "email": "me@dylanpyle.com",
+      "url": "https://github.com/dylanpyle"
+    },
+    {
+      "name": "Nicholas Alekhine",
+      "email": "nick.alekhine@gmail.com",
+      "url": "https://github.com/alekhinen"
+    },
+    {
+      "name": "Sam Swanke",
+      "email": "skswanke@gmail.com",
+      "url": "https://github.com/skswanke"
+    },
+    {
+      "name": "Sebastian Coraccio",
+      "email": "sebastiancoraccio@gmail.com",
+      "url": "https://github.com/sebastiancoraccio"
+    },
+    {
+      "name": "Scott Trinh",
+      "email": "scott@scotttrinh.com",
+      "url": "https://github.com/scotttrinh"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ca-la/react-search-route/issues"
@@ -23,9 +50,8 @@
   "homepage": "https://github.com/ca-la/react-search-route#readme",
   "peerDependencies": {
     "react": "^16.8.5",
-    "react-router-dom": "^4.3.1",
-    "query-string": "^6.8.3",
-    "lodash": "^4.17.4"
+    "react-router-dom": "^5.1.2",
+    "lodash": "^4.17.15"
   },
   "keywords": [
     "React",
@@ -38,9 +64,9 @@
   "devDependencies": {
     "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.18",
-    "@types/lodash": "^4.14.106",
+    "@types/lodash": "^4.14.141",
     "@types/react": "^16.9.2",
-    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-dom": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.3.0",
@@ -52,12 +78,11 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "jest": "^24.9.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.15",
     "prettier": "^1.14.3",
-    "query-string": "^6.8.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "ts-jest": "^24.0.2",
     "ts-node": "^7.0.1",
     "tslib": "^1.9.3",
