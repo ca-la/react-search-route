@@ -12,6 +12,20 @@ describe('<SearchRoute />', () => {
   const noMatch = (): JSX.Element => <div>Do not match me</div>;
   const partialMatch = (): JSX.Element => <div>Partial match</div>;
 
+  it('will render nothing if there is no match', () => {
+    const searchComponent = render(
+      <MemoryRouter initialEntries={['/?isFoo=true']}>
+        <SearchRoute
+          exact
+          search={{ isFoo: 'true', doesBar: 'true' }}
+          render={noMatch}
+        />
+      </MemoryRouter>
+    );
+
+    expect(() => searchComponent.getByText('Do not match me')).toThrowError();
+  });
+
   it('will render only the first matching route when wrapped in <SearchSwitch />', () => {
     const searchComponent = render(
       <MemoryRouter initialEntries={['/?isFoo=true']}>
@@ -46,7 +60,7 @@ describe('<SearchRoute />', () => {
           />
           <SearchRoute
             exact
-            search={{ isFoo: 'false', doesBar: 'true' }}
+            search={{ isFoo: 'true', doesBar: 'true' }}
             render={noMatch}
           />
         </React.Fragment>

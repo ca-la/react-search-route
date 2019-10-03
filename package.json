@@ -16,6 +16,28 @@
     "url": "git@github.com:ca-la/react-search-route.git"
   },
   "author": "CALA <devops@ca.la>",
+  "contributors": [
+    {
+      "name": "Nicholas Alekhine",
+      "email": "nick.alekhine@gmail.com",
+      "url": "https://github.com/alekhinen"
+    },
+    {
+      "name": "Scott Trinh",
+      "email": "scott@scotttrinh.com",
+      "url": "https://github.com/scotttrinh"
+    },
+    {
+      "name": "Sam Swanke",
+      "email": "skswanke@gmail.com",
+      "url": "https://github.com/skswanke"
+    },
+    {
+      "name": "Sebastian Coraccio",
+      "email": "sebastiancoraccio@gmail.com",
+      "url": "https://github.com/sebastiancoraccio"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ca-la/react-search-route/issues"
@@ -23,7 +45,7 @@
   "homepage": "https://github.com/ca-la/react-search-route#readme",
   "peerDependencies": {
     "react": "^16.8.5",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "lodash": "^4.17.15"
   },
   "keywords": [
@@ -39,7 +61,7 @@
     "@types/jest": "^24.0.18",
     "@types/lodash": "^4.14.141",
     "@types/react": "^16.9.2",
-    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-dom": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.3.0",
@@ -55,7 +77,7 @@
     "prettier": "^1.14.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "ts-jest": "^24.0.2",
     "ts-node": "^7.0.1",
     "tslib": "^1.9.3",
