@@ -1,6 +1,6 @@
-import { difference, intersection, isEqual } from 'lodash';
+import { difference, intersection, isEqual } from "lodash";
 
-import { SearchKeyset, SearchParams } from './search-route';
+import { SearchKeyset, SearchParams } from "./search-route";
 
 /**
  * Does every element in the first list exist in the second list and vice versa?
@@ -50,7 +50,7 @@ export default function matchSearch(
     (acc: SearchParams, currentKey: string): SearchParams => {
       return {
         ...acc,
-        [currentKey]: urlSearchParams.get(currentKey)
+        [currentKey]: urlSearchParams.get(currentKey),
       };
     },
     {}
@@ -65,7 +65,7 @@ export default function matchSearch(
       return {
         isExact: isExactMatch,
         search: currentSearch,
-        searchKeyset
+        searchKeyset,
       };
     }
   } else if (searchKeyset.length > 0) {
@@ -76,7 +76,7 @@ export default function matchSearch(
       return {
         isExact,
         search: currentSearch,
-        searchKeyset
+        searchKeyset,
       };
     }
   } else if (!search && searchKeyset.length === 0) {
@@ -85,14 +85,14 @@ export default function matchSearch(
       return {
         isExact: true,
         search: currentSearch,
-        searchKeyset
+        searchKeyset,
       };
     }
     if (!exact) {
       return {
         isExact: !hasKeys,
         search: currentSearch,
-        searchKeyset
+        searchKeyset,
       };
     }
   }

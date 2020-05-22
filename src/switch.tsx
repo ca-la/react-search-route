@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { RouteComponentProps, withRouter } from 'react-router-dom';
+import * as React from "react";
+import { RouteComponentProps, withRouter } from "react-router-dom";
 
-import { SearchRouteProps } from './search-route';
-import matchSearch from './match-search';
+import { SearchRouteProps } from "./search-route";
+import matchSearch from "./match-search";
 
 interface OwnProps {
   children?: JSX.Element | JSX.Element[];

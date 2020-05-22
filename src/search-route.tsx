@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { Route, RouteComponentProps } from 'react-router-dom';
-import matchSearch, { SearchMatchParams } from './match-search';
+import * as React from "react";
+import { Route, RouteComponentProps } from "react-router-dom";
+import matchSearch, { SearchMatchParams } from "./match-search";
 
 export type WithSearchMatch = RouteComponentProps<any> & {
   searchMatch: SearchMatchParams;
@@ -44,7 +44,7 @@ function maybeRender(
     searchMatch &&
     render({
       ...routeProps,
-      searchMatch
+      searchMatch,
     })
   );
 }
@@ -53,7 +53,7 @@ export default function SearchRoute(props: SearchRouteProps): JSX.Element {
   if (props.render) {
     return (
       <Route
-        path={props.path || '/'}
+        path={props.path || "/"}
         render={maybeRender.bind(
           null,
           props.search,
@@ -64,5 +64,5 @@ export default function SearchRoute(props: SearchRouteProps): JSX.Element {
       />
     );
   }
-  throw new Error('A render prop must be passed through!');
+  throw new Error("A render prop must be passed through!");
 }
